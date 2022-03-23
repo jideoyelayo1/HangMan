@@ -56,6 +56,7 @@ namespace HangMan
                         temp++;
                 WrongGuesses = temp;
                 FailedAttButton.Text = "Wrong Guesses: " + Convert.ToString(WrongGuesses);
+                UpdateHangManImage();
                 await Task.Delay(50);
             }
             await Task.Delay(1000);
@@ -82,7 +83,7 @@ namespace HangMan
             InitializeComponent();
             Setup();
             Running();
-            UpdateHangManImage();
+            
         }
 
         #region Buttons
