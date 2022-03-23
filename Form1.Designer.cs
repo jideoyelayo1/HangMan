@@ -56,11 +56,13 @@
             this.cButton = new System.Windows.Forms.Button();
             this.xButton = new System.Windows.Forms.Button();
             this.zButton = new System.Windows.Forms.Button();
+            this.HangManImages = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.HangManImages)).BeginInit();
             this.SuspendLayout();
             // 
             // DisplayText
             // 
-            this.DisplayText.Location = new System.Drawing.Point(77, 48);
+            this.DisplayText.Location = new System.Drawing.Point(22, 47);
             this.DisplayText.Name = "DisplayText";
             this.DisplayText.Size = new System.Drawing.Size(431, 151);
             this.DisplayText.TabIndex = 0;
@@ -335,11 +337,21 @@
             this.zButton.UseVisualStyleBackColor = true;
             this.zButton.Click += new System.EventHandler(this.zButton_Click);
             // 
+            // HangManImages
+            // 
+            this.HangManImages.Image = global::HangMan.Properties.Resources.guess1;
+            this.HangManImages.Location = new System.Drawing.Point(459, 47);
+            this.HangManImages.Name = "HangManImages";
+            this.HangManImages.Size = new System.Drawing.Size(191, 151);
+            this.HangManImages.TabIndex = 29;
+            this.HangManImages.TabStop = false;
+            // 
             // HangMan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.HangManImages);
             this.Controls.Add(this.zButton);
             this.Controls.Add(this.xButton);
             this.Controls.Add(this.cButton);
@@ -371,6 +383,7 @@
             this.Name = "HangMan";
             this.Text = "HangMan";
             this.Load += new System.EventHandler(this.HangMan_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.HangManImages)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -410,5 +423,6 @@
         private Button cButton;
         private Button xButton;
         private Button zButton;
+        private PictureBox HangManImages;
     }
 }
