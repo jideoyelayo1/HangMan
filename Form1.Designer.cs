@@ -57,6 +57,7 @@
             this.xButton = new System.Windows.Forms.Button();
             this.zButton = new System.Windows.Forms.Button();
             this.HangManImages = new System.Windows.Forms.PictureBox();
+            this.RestartButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.HangManImages)).BeginInit();
             this.SuspendLayout();
             // 
@@ -91,7 +92,7 @@
             // 
             // FailedAttButton
             // 
-            this.FailedAttButton.Location = new System.Drawing.Point(613, 12);
+            this.FailedAttButton.Location = new System.Drawing.Point(475, 12);
             this.FailedAttButton.Name = "FailedAttButton";
             this.FailedAttButton.Size = new System.Drawing.Size(175, 29);
             this.FailedAttButton.TabIndex = 4;
@@ -346,11 +347,22 @@
             this.HangManImages.TabIndex = 29;
             this.HangManImages.TabStop = false;
             // 
+            // RestartButton
+            // 
+            this.RestartButton.Location = new System.Drawing.Point(22, 12);
+            this.RestartButton.Name = "RestartButton";
+            this.RestartButton.Size = new System.Drawing.Size(97, 29);
+            this.RestartButton.TabIndex = 30;
+            this.RestartButton.Text = "Restart";
+            this.RestartButton.UseVisualStyleBackColor = true;
+            this.RestartButton.Click += new System.EventHandler(this.RestartButton_Click);
+            // 
             // HangMan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(660, 411);
+            this.Controls.Add(this.RestartButton);
             this.Controls.Add(this.HangManImages);
             this.Controls.Add(this.zButton);
             this.Controls.Add(this.xButton);
@@ -423,5 +435,6 @@
         private Button xButton;
         private Button zButton;
         private PictureBox HangManImages;
+        private Button RestartButton;
     }
 }

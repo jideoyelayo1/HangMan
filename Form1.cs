@@ -324,6 +324,10 @@ namespace HangMan
 
         #endregion
 
+        private void RestartButton_Click(object sender, EventArgs e)
+        {
+            Application.Restart();
+        }
     }
 
 }
