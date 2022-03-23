@@ -72,7 +72,7 @@
             // 
             // qButton
             // 
-            this.qButton.Location = new System.Drawing.Point(22, 270);
+            this.qButton.Location = new System.Drawing.Point(36, 218);
             this.qButton.Name = "qButton";
             this.qButton.Size = new System.Drawing.Size(42, 29);
             this.qButton.TabIndex = 2;
@@ -82,7 +82,7 @@
             // 
             // aButton
             // 
-            this.aButton.Location = new System.Drawing.Point(46, 319);
+            this.aButton.Location = new System.Drawing.Point(60, 267);
             this.aButton.Name = "aButton";
             this.aButton.Size = new System.Drawing.Size(42, 29);
             this.aButton.TabIndex = 3;
@@ -101,7 +101,7 @@
             // 
             // dButton
             // 
-            this.dButton.Location = new System.Drawing.Point(175, 319);
+            this.dButton.Location = new System.Drawing.Point(189, 267);
             this.dButton.Name = "dButton";
             this.dButton.Size = new System.Drawing.Size(42, 29);
             this.dButton.TabIndex = 5;
@@ -111,7 +111,7 @@
             // 
             // sButton
             // 
-            this.sButton.Location = new System.Drawing.Point(109, 319);
+            this.sButton.Location = new System.Drawing.Point(123, 267);
             this.sButton.Name = "sButton";
             this.sButton.Size = new System.Drawing.Size(42, 29);
             this.sButton.TabIndex = 6;
@@ -121,7 +121,7 @@
             // 
             // lButton
             // 
-            this.lButton.Location = new System.Drawing.Point(548, 319);
+            this.lButton.Location = new System.Drawing.Point(562, 267);
             this.lButton.Name = "lButton";
             this.lButton.Size = new System.Drawing.Size(42, 29);
             this.lButton.TabIndex = 7;
@@ -131,7 +131,7 @@
             // 
             // kButton
             // 
-            this.kButton.Location = new System.Drawing.Point(482, 319);
+            this.kButton.Location = new System.Drawing.Point(496, 267);
             this.kButton.Name = "kButton";
             this.kButton.Size = new System.Drawing.Size(42, 29);
             this.kButton.TabIndex = 8;
@@ -141,7 +141,7 @@
             // 
             // jButton
             // 
-            this.jButton.Location = new System.Drawing.Point(422, 319);
+            this.jButton.Location = new System.Drawing.Point(436, 267);
             this.jButton.Name = "jButton";
             this.jButton.Size = new System.Drawing.Size(42, 29);
             this.jButton.TabIndex = 9;
@@ -151,7 +151,7 @@
             // 
             // hButton
             // 
-            this.hButton.Location = new System.Drawing.Point(363, 319);
+            this.hButton.Location = new System.Drawing.Point(377, 267);
             this.hButton.Name = "hButton";
             this.hButton.Size = new System.Drawing.Size(42, 29);
             this.hButton.TabIndex = 10;
@@ -161,7 +161,7 @@
             // 
             // gButton
             // 
-            this.gButton.Location = new System.Drawing.Point(302, 319);
+            this.gButton.Location = new System.Drawing.Point(316, 267);
             this.gButton.Name = "gButton";
             this.gButton.Size = new System.Drawing.Size(42, 29);
             this.gButton.TabIndex = 11;
@@ -171,7 +171,7 @@
             // 
             // fButton
             // 
-            this.fButton.Location = new System.Drawing.Point(238, 319);
+            this.fButton.Location = new System.Drawing.Point(252, 267);
             this.fButton.Name = "fButton";
             this.fButton.Size = new System.Drawing.Size(42, 29);
             this.fButton.TabIndex = 12;
@@ -181,7 +181,7 @@
             // 
             // pButton
             // 
-            this.pButton.Location = new System.Drawing.Point(576, 270);
+            this.pButton.Location = new System.Drawing.Point(590, 218);
             this.pButton.Name = "pButton";
             this.pButton.Size = new System.Drawing.Size(42, 29);
             this.pButton.TabIndex = 13;
@@ -191,7 +191,7 @@
             // 
             // oButton
             // 
-            this.oButton.Location = new System.Drawing.Point(517, 270);
+            this.oButton.Location = new System.Drawing.Point(531, 218);
             this.oButton.Name = "oButton";
             this.oButton.Size = new System.Drawing.Size(42, 29);
             this.oButton.TabIndex = 14;
@@ -201,7 +201,7 @@
             // 
             // iButton
             // 
-            this.iButton.Location = new System.Drawing.Point(452, 270);
+            this.iButton.Location = new System.Drawing.Point(466, 218);
             this.iButton.Name = "iButton";
             this.iButton.Size = new System.Drawing.Size(42, 29);
             this.iButton.TabIndex = 15;
@@ -211,7 +211,7 @@
             // 
             // uButton
             // 
-            this.uButton.Location = new System.Drawing.Point(395, 270);
+            this.uButton.Location = new System.Drawing.Point(409, 218);
             this.uButton.Name = "uButton";
             this.uButton.Size = new System.Drawing.Size(42, 29);
             this.uButton.TabIndex = 16;
@@ -221,7 +221,7 @@
             // 
             // yButton
             // 
-            this.yButton.Location = new System.Drawing.Point(339, 270);
+            this.yButton.Location = new System.Drawing.Point(353, 218);
             this.yButton.Name = "yButton";
             this.yButton.Size = new System.Drawing.Size(42, 29);
             this.yButton.TabIndex = 17;
@@ -231,7 +231,7 @@
             // 
             // tButton
             // 
-            this.tButton.Location = new System.Drawing.Point(275, 270);
+            this.tButton.Location = new System.Drawing.Point(289, 218);
             this.tButton.Name = "tButton";
             this.tButton.Size = new System.Drawing.Size(42, 29);
             this.tButton.TabIndex = 18;
@@ -241,7 +241,7 @@
             // 
             // rButton
             // 
-            this.rButton.Location = new System.Drawing.Point(211, 270);
+            this.rButton.Location = new System.Drawing.Point(225, 218);
             this.rButton.Name = "rButton";
             this.rButton.Size = new System.Drawing.Size(42, 29);
             this.rButton.TabIndex = 19;
@@ -251,7 +251,7 @@
             // 
             // eButton
             // 
-            this.eButton.Location = new System.Drawing.Point(146, 270);
+            this.eButton.Location = new System.Drawing.Point(160, 218);
             this.eButton.Name = "eButton";
             this.eButton.Size = new System.Drawing.Size(42, 29);
             this.eButton.TabIndex = 20;
@@ -261,7 +261,7 @@
             // 
             // wButton
             // 
-            this.wButton.Location = new System.Drawing.Point(87, 270);
+            this.wButton.Location = new System.Drawing.Point(101, 218);
             this.wButton.Name = "wButton";
             this.wButton.Size = new System.Drawing.Size(42, 29);
             this.wButton.TabIndex = 21;
@@ -271,7 +271,7 @@
             // 
             // mButton
             // 
-            this.mButton.Location = new System.Drawing.Point(452, 368);
+            this.mButton.Location = new System.Drawing.Point(466, 316);
             this.mButton.Name = "mButton";
             this.mButton.Size = new System.Drawing.Size(42, 29);
             this.mButton.TabIndex = 22;
@@ -281,7 +281,7 @@
             // 
             // nButton
             // 
-            this.nButton.Location = new System.Drawing.Point(395, 368);
+            this.nButton.Location = new System.Drawing.Point(409, 316);
             this.nButton.Name = "nButton";
             this.nButton.Size = new System.Drawing.Size(42, 29);
             this.nButton.TabIndex = 23;
@@ -291,7 +291,7 @@
             // 
             // bButton
             // 
-            this.bButton.Location = new System.Drawing.Point(339, 368);
+            this.bButton.Location = new System.Drawing.Point(353, 316);
             this.bButton.Name = "bButton";
             this.bButton.Size = new System.Drawing.Size(42, 29);
             this.bButton.TabIndex = 24;
@@ -301,7 +301,7 @@
             // 
             // vButton
             // 
-            this.vButton.Location = new System.Drawing.Point(275, 368);
+            this.vButton.Location = new System.Drawing.Point(289, 316);
             this.vButton.Name = "vButton";
             this.vButton.Size = new System.Drawing.Size(42, 29);
             this.vButton.TabIndex = 25;
@@ -311,7 +311,7 @@
             // 
             // cButton
             // 
-            this.cButton.Location = new System.Drawing.Point(211, 368);
+            this.cButton.Location = new System.Drawing.Point(225, 316);
             this.cButton.Name = "cButton";
             this.cButton.Size = new System.Drawing.Size(42, 29);
             this.cButton.TabIndex = 26;
@@ -321,7 +321,7 @@
             // 
             // xButton
             // 
-            this.xButton.Location = new System.Drawing.Point(146, 368);
+            this.xButton.Location = new System.Drawing.Point(160, 316);
             this.xButton.Name = "xButton";
             this.xButton.Size = new System.Drawing.Size(42, 29);
             this.xButton.TabIndex = 27;
@@ -331,7 +331,7 @@
             // 
             // zButton
             // 
-            this.zButton.Location = new System.Drawing.Point(77, 368);
+            this.zButton.Location = new System.Drawing.Point(91, 316);
             this.zButton.Name = "zButton";
             this.zButton.Size = new System.Drawing.Size(42, 29);
             this.zButton.TabIndex = 28;
@@ -361,7 +361,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(660, 411);
+            this.ClientSize = new System.Drawing.Size(660, 362);
             this.Controls.Add(this.RestartButton);
             this.Controls.Add(this.HangManImages);
             this.Controls.Add(this.zButton);
@@ -392,6 +392,7 @@
             this.Controls.Add(this.aButton);
             this.Controls.Add(this.qButton);
             this.Controls.Add(this.DisplayText);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "HangMan";
             this.Text = "HangMan";
             ((System.ComponentModel.ISupportInitialize)(this.HangManImages)).EndInit();
