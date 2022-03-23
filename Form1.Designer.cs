@@ -34,6 +34,28 @@
             this.FailedAttButton = new System.Windows.Forms.Button();
             this.dButton = new System.Windows.Forms.Button();
             this.sButton = new System.Windows.Forms.Button();
+            this.lButton = new System.Windows.Forms.Button();
+            this.kButton = new System.Windows.Forms.Button();
+            this.jButton = new System.Windows.Forms.Button();
+            this.hButton = new System.Windows.Forms.Button();
+            this.gButton = new System.Windows.Forms.Button();
+            this.fButton = new System.Windows.Forms.Button();
+            this.pButton = new System.Windows.Forms.Button();
+            this.oButton = new System.Windows.Forms.Button();
+            this.iButton = new System.Windows.Forms.Button();
+            this.uButton = new System.Windows.Forms.Button();
+            this.yButton = new System.Windows.Forms.Button();
+            this.tButton = new System.Windows.Forms.Button();
+            this.rButton = new System.Windows.Forms.Button();
+            this.eButton = new System.Windows.Forms.Button();
+            this.wButton = new System.Windows.Forms.Button();
+            this.mButton = new System.Windows.Forms.Button();
+            this.nButton = new System.Windows.Forms.Button();
+            this.bButton = new System.Windows.Forms.Button();
+            this.vButton = new System.Windows.Forms.Button();
+            this.cButton = new System.Windows.Forms.Button();
+            this.xButton = new System.Windows.Forms.Button();
+            this.zButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // DisplayText
@@ -94,11 +116,252 @@
             this.sButton.UseVisualStyleBackColor = true;
             this.sButton.Click += new System.EventHandler(this.sButton_Click);
             // 
+            // lButton
+            // 
+            this.lButton.Location = new System.Drawing.Point(548, 319);
+            this.lButton.Name = "lButton";
+            this.lButton.Size = new System.Drawing.Size(42, 29);
+            this.lButton.TabIndex = 7;
+            this.lButton.Text = "l";
+            this.lButton.UseVisualStyleBackColor = true;
+            this.lButton.Click += new System.EventHandler(this.lButton_Click);
+            // 
+            // kButton
+            // 
+            this.kButton.Location = new System.Drawing.Point(482, 319);
+            this.kButton.Name = "kButton";
+            this.kButton.Size = new System.Drawing.Size(42, 29);
+            this.kButton.TabIndex = 8;
+            this.kButton.Text = "k";
+            this.kButton.UseVisualStyleBackColor = true;
+            this.kButton.Click += new System.EventHandler(this.kButton_Click);
+            // 
+            // jButton
+            // 
+            this.jButton.Location = new System.Drawing.Point(422, 319);
+            this.jButton.Name = "jButton";
+            this.jButton.Size = new System.Drawing.Size(42, 29);
+            this.jButton.TabIndex = 9;
+            this.jButton.Text = "j";
+            this.jButton.UseVisualStyleBackColor = true;
+            this.jButton.Click += new System.EventHandler(this.jButton_Click);
+            // 
+            // hButton
+            // 
+            this.hButton.Location = new System.Drawing.Point(363, 319);
+            this.hButton.Name = "hButton";
+            this.hButton.Size = new System.Drawing.Size(42, 29);
+            this.hButton.TabIndex = 10;
+            this.hButton.Text = "h";
+            this.hButton.UseVisualStyleBackColor = true;
+            this.hButton.Click += new System.EventHandler(this.hButton_Click);
+            // 
+            // gButton
+            // 
+            this.gButton.Location = new System.Drawing.Point(302, 319);
+            this.gButton.Name = "gButton";
+            this.gButton.Size = new System.Drawing.Size(42, 29);
+            this.gButton.TabIndex = 11;
+            this.gButton.Text = "g";
+            this.gButton.UseVisualStyleBackColor = true;
+            this.gButton.Click += new System.EventHandler(this.gButton_Click);
+            // 
+            // fButton
+            // 
+            this.fButton.Location = new System.Drawing.Point(238, 319);
+            this.fButton.Name = "fButton";
+            this.fButton.Size = new System.Drawing.Size(42, 29);
+            this.fButton.TabIndex = 12;
+            this.fButton.Text = "f";
+            this.fButton.UseVisualStyleBackColor = true;
+            this.fButton.Click += new System.EventHandler(this.fButton_Click);
+            // 
+            // pButton
+            // 
+            this.pButton.Location = new System.Drawing.Point(576, 270);
+            this.pButton.Name = "pButton";
+            this.pButton.Size = new System.Drawing.Size(42, 29);
+            this.pButton.TabIndex = 13;
+            this.pButton.Text = "p";
+            this.pButton.UseVisualStyleBackColor = true;
+            this.pButton.Click += new System.EventHandler(this.pButton_Click);
+            // 
+            // oButton
+            // 
+            this.oButton.Location = new System.Drawing.Point(517, 270);
+            this.oButton.Name = "oButton";
+            this.oButton.Size = new System.Drawing.Size(42, 29);
+            this.oButton.TabIndex = 14;
+            this.oButton.Text = "o";
+            this.oButton.UseVisualStyleBackColor = true;
+            this.oButton.Click += new System.EventHandler(this.oButton_Click);
+            // 
+            // iButton
+            // 
+            this.iButton.Location = new System.Drawing.Point(452, 270);
+            this.iButton.Name = "iButton";
+            this.iButton.Size = new System.Drawing.Size(42, 29);
+            this.iButton.TabIndex = 15;
+            this.iButton.Text = "i";
+            this.iButton.UseVisualStyleBackColor = true;
+            this.iButton.Click += new System.EventHandler(this.iButton_Click);
+            // 
+            // uButton
+            // 
+            this.uButton.Location = new System.Drawing.Point(395, 270);
+            this.uButton.Name = "uButton";
+            this.uButton.Size = new System.Drawing.Size(42, 29);
+            this.uButton.TabIndex = 16;
+            this.uButton.Text = "u";
+            this.uButton.UseVisualStyleBackColor = true;
+            this.uButton.Click += new System.EventHandler(this.uButton_Click);
+            // 
+            // yButton
+            // 
+            this.yButton.Location = new System.Drawing.Point(339, 270);
+            this.yButton.Name = "yButton";
+            this.yButton.Size = new System.Drawing.Size(42, 29);
+            this.yButton.TabIndex = 17;
+            this.yButton.Text = "y";
+            this.yButton.UseVisualStyleBackColor = true;
+            this.yButton.Click += new System.EventHandler(this.yButton_Click);
+            // 
+            // tButton
+            // 
+            this.tButton.Location = new System.Drawing.Point(275, 270);
+            this.tButton.Name = "tButton";
+            this.tButton.Size = new System.Drawing.Size(42, 29);
+            this.tButton.TabIndex = 18;
+            this.tButton.Text = "t";
+            this.tButton.UseVisualStyleBackColor = true;
+            this.tButton.Click += new System.EventHandler(this.tButton_Click);
+            // 
+            // rButton
+            // 
+            this.rButton.Location = new System.Drawing.Point(211, 270);
+            this.rButton.Name = "rButton";
+            this.rButton.Size = new System.Drawing.Size(42, 29);
+            this.rButton.TabIndex = 19;
+            this.rButton.Text = "r";
+            this.rButton.UseVisualStyleBackColor = true;
+            this.rButton.Click += new System.EventHandler(this.rButton_Click);
+            // 
+            // eButton
+            // 
+            this.eButton.Location = new System.Drawing.Point(146, 270);
+            this.eButton.Name = "eButton";
+            this.eButton.Size = new System.Drawing.Size(42, 29);
+            this.eButton.TabIndex = 20;
+            this.eButton.Text = "e";
+            this.eButton.UseVisualStyleBackColor = true;
+            // 
+            // wButton
+            // 
+            this.wButton.Location = new System.Drawing.Point(87, 270);
+            this.wButton.Name = "wButton";
+            this.wButton.Size = new System.Drawing.Size(42, 29);
+            this.wButton.TabIndex = 21;
+            this.wButton.Text = "w";
+            this.wButton.UseVisualStyleBackColor = true;
+            this.wButton.Click += new System.EventHandler(this.wButton_Click);
+            // 
+            // mButton
+            // 
+            this.mButton.Location = new System.Drawing.Point(452, 368);
+            this.mButton.Name = "mButton";
+            this.mButton.Size = new System.Drawing.Size(42, 29);
+            this.mButton.TabIndex = 22;
+            this.mButton.Text = "m";
+            this.mButton.UseVisualStyleBackColor = true;
+            this.mButton.Click += new System.EventHandler(this.mButton_Click);
+            // 
+            // nButton
+            // 
+            this.nButton.Location = new System.Drawing.Point(395, 368);
+            this.nButton.Name = "nButton";
+            this.nButton.Size = new System.Drawing.Size(42, 29);
+            this.nButton.TabIndex = 23;
+            this.nButton.Text = "n";
+            this.nButton.UseVisualStyleBackColor = true;
+            this.nButton.Click += new System.EventHandler(this.nButton_Click);
+            // 
+            // bButton
+            // 
+            this.bButton.Location = new System.Drawing.Point(339, 368);
+            this.bButton.Name = "bButton";
+            this.bButton.Size = new System.Drawing.Size(42, 29);
+            this.bButton.TabIndex = 24;
+            this.bButton.Text = "b";
+            this.bButton.UseVisualStyleBackColor = true;
+            this.bButton.Click += new System.EventHandler(this.bButton_Click);
+            // 
+            // vButton
+            // 
+            this.vButton.Location = new System.Drawing.Point(275, 368);
+            this.vButton.Name = "vButton";
+            this.vButton.Size = new System.Drawing.Size(42, 29);
+            this.vButton.TabIndex = 25;
+            this.vButton.Text = "v";
+            this.vButton.UseVisualStyleBackColor = true;
+            this.vButton.Click += new System.EventHandler(this.vButton_Click);
+            // 
+            // cButton
+            // 
+            this.cButton.Location = new System.Drawing.Point(211, 368);
+            this.cButton.Name = "cButton";
+            this.cButton.Size = new System.Drawing.Size(42, 29);
+            this.cButton.TabIndex = 26;
+            this.cButton.Text = "c";
+            this.cButton.UseVisualStyleBackColor = true;
+            this.cButton.Click += new System.EventHandler(this.cButton_Click);
+            // 
+            // xButton
+            // 
+            this.xButton.Location = new System.Drawing.Point(146, 368);
+            this.xButton.Name = "xButton";
+            this.xButton.Size = new System.Drawing.Size(42, 29);
+            this.xButton.TabIndex = 27;
+            this.xButton.Text = "x";
+            this.xButton.UseVisualStyleBackColor = true;
+            this.xButton.Click += new System.EventHandler(this.xButton_Click);
+            // 
+            // zButton
+            // 
+            this.zButton.Location = new System.Drawing.Point(77, 368);
+            this.zButton.Name = "zButton";
+            this.zButton.Size = new System.Drawing.Size(42, 29);
+            this.zButton.TabIndex = 28;
+            this.zButton.Text = "z";
+            this.zButton.UseVisualStyleBackColor = true;
+            this.zButton.Click += new System.EventHandler(this.zButton_Click);
+            // 
             // HangMan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.zButton);
+            this.Controls.Add(this.xButton);
+            this.Controls.Add(this.cButton);
+            this.Controls.Add(this.vButton);
+            this.Controls.Add(this.bButton);
+            this.Controls.Add(this.nButton);
+            this.Controls.Add(this.mButton);
+            this.Controls.Add(this.wButton);
+            this.Controls.Add(this.eButton);
+            this.Controls.Add(this.rButton);
+            this.Controls.Add(this.tButton);
+            this.Controls.Add(this.yButton);
+            this.Controls.Add(this.uButton);
+            this.Controls.Add(this.iButton);
+            this.Controls.Add(this.oButton);
+            this.Controls.Add(this.pButton);
+            this.Controls.Add(this.fButton);
+            this.Controls.Add(this.gButton);
+            this.Controls.Add(this.hButton);
+            this.Controls.Add(this.jButton);
+            this.Controls.Add(this.kButton);
+            this.Controls.Add(this.lButton);
             this.Controls.Add(this.sButton);
             this.Controls.Add(this.dButton);
             this.Controls.Add(this.FailedAttButton);
@@ -107,6 +370,7 @@
             this.Controls.Add(this.DisplayText);
             this.Name = "HangMan";
             this.Text = "HangMan";
+            this.Load += new System.EventHandler(this.HangMan_Load);
             this.ResumeLayout(false);
 
         }
@@ -124,5 +388,27 @@
         private Button FailedAttButton;
         private Button dButton;
         private Button sButton;
+        private Button lButton;
+        private Button kButton;
+        private Button jButton;
+        private Button hButton;
+        private Button gButton;
+        private Button fButton;
+        private Button pButton;
+        private Button oButton;
+        private Button iButton;
+        private Button uButton;
+        private Button yButton;
+        private Button tButton;
+        private Button rButton;
+        private Button eButton;
+        private Button wButton;
+        private Button mButton;
+        private Button nButton;
+        private Button bButton;
+        private Button vButton;
+        private Button cButton;
+        private Button xButton;
+        private Button zButton;
     }
 }
