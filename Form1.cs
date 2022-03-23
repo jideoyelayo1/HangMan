@@ -186,7 +186,7 @@ namespace HangMan
                 wButton.BackColor = Color.Red;
         }
 
-        private void HangMan_Load(object sender, EventArgs e)
+        private void eButton_Click(object sender, EventArgs e)
         {
             Attempts.Add('e');
             if (WordToGuess.Contains('e'))
@@ -320,8 +320,8 @@ namespace HangMan
             else
                 mButton.BackColor = Color.Red;
         }
-        #endregion
 
+        #endregion
 
     }
 

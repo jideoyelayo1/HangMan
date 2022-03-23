@@ -256,6 +256,7 @@
             this.eButton.TabIndex = 20;
             this.eButton.Text = "e";
             this.eButton.UseVisualStyleBackColor = true;
+            this.eButton.Click += new System.EventHandler(this.eButton_Click);
             // 
             // wButton
             // 
@@ -381,7 +382,6 @@
             this.Controls.Add(this.DisplayText);
             this.Name = "HangMan";
             this.Text = "HangMan";
-            this.Load += new System.EventHandler(this.HangMan_Load);
             ((System.ComponentModel.ISupportInitialize)(this.HangManImages)).EndInit();
             this.ResumeLayout(false);
 
