@@ -44,7 +44,7 @@ namespace HangMan
 
         }
         public static int WrongGuesses = 0;
-        public static int TotalAttemptsGiven = 1;
+        public static int TotalAttemptsGiven = 10;
         public async void Running()
         {
             while (DisplayText.Text.Contains('-') && TotalAttemptsGiven > WrongGuesses)
@@ -68,11 +68,21 @@ namespace HangMan
             StartGame();
 
         }
+        public void UpdateHangManImage()
+        {
+            var temp = WrongGuesses + 1;
+            var ImgName = "guess" + Convert.ToString(temp) + ".png";
+
+            Image b = Image.FromFile(ImgName);
+            HangManImages.Image = b;
+
+        }
         public void StartGame()
         {
             InitializeComponent();
             Setup();
             Running();
+            UpdateHangManImage();
         }
 
         #region Buttons

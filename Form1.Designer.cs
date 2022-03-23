@@ -339,7 +339,6 @@
             // 
             // HangManImages
             // 
-            this.HangManImages.Image = global::HangMan.Properties.Resources.guess1;
             this.HangManImages.Location = new System.Drawing.Point(459, 47);
             this.HangManImages.Name = "HangManImages";
             this.HangManImages.Size = new System.Drawing.Size(191, 151);
