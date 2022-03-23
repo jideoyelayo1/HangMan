@@ -35,7 +35,7 @@
             // 
             this.DisplayText.Location = new System.Drawing.Point(77, 48);
             this.DisplayText.Name = "DisplayText";
-            this.DisplayText.Size = new System.Drawing.Size(270, 151);
+            this.DisplayText.Size = new System.Drawing.Size(431, 151);
             this.DisplayText.TabIndex = 0;
             this.DisplayText.Text = "button1";
             this.DisplayText.UseVisualStyleBackColor = true;
