@@ -2,13 +2,14 @@ using System.Text;
 
 namespace HangMan
 {
-    public partial class Form1 : Form
+    public partial class HangMan : Form
     {
-        public Form1()
+        public HangMan()
         {
-            InitializeComponent();
-            Setup();
-            Running();
+            
+            StartGame();
+
+
         }
         public static string ReplaceAtIndex(string text, int index, char c)
         {
@@ -27,8 +28,7 @@ namespace HangMan
             Random idx = new Random();
             WordToGuess = words[idx.Next(words.Length)].ToLower();
         }
-
-        public  void Display()
+        public void Display()
         {
             string output = "";
             var idx = 0;
@@ -44,20 +44,72 @@ namespace HangMan
 
         }
         public static int WrongGuesses = 0;
+        public static int TotalAttemptsGiven = 1;
         public async void Running()
         {
-            while (true)
+            while (DisplayText.Text.Contains('-') && TotalAttemptsGiven > WrongGuesses)
             {
                 var temp = 0;
                 Display();
-                foreach(char c in WordToGuess)
-                    if(!Attempts.Contains(c))
+                foreach(char c in Attempts)
+                    if(!WordToGuess.Contains(c))
                         temp++;
                 WrongGuesses = temp;
+                FailedAttButton.Text = "Wrong Guesses: " + Convert.ToString(WrongGuesses);
                 await Task.Delay(50);
             }
+            await Task.Delay(1000);
+            if (TotalAttemptsGiven > WrongGuesses)
+                DisplayText.Text = "Well Done\n";
+            else
+                DisplayText.Text = "Better Luck Next Time\n";
+            DisplayText.Text += "The word was: " + WordToGuess;
+            await Task.Delay(7000);
+            StartGame();
+
+        }
+        public void StartGame()
+        {
+            InitializeComponent();
+            Setup();
+            Running();
+        }
+
+        private void aButton_Click(object sender, EventArgs e)
+        {
+            Attempts.Add('a');
+            if(WordToGuess.Contains('a'))
+                aButton.BackColor = Color.Green;
+            else
+                aButton.BackColor = Color.Red;
 
         }
 
+        private void qButton_Click(object sender, EventArgs e)
+        {
+            Attempts.Add('q');
+            if (WordToGuess.Contains('q'))
+                qButton.BackColor = Color.Green;
+            else
+                qButton.BackColor = Color.Red;
+        }
+
+        private void sButton_Click(object sender, EventArgs e)
+        {
+            Attempts.Add('s');
+            if (WordToGuess.Contains('s'))
+                sButton.BackColor = Color.Green;
+            else
+                sButton.BackColor = Color.Red;
+        }
+
+        private void dButton_Click(object sender, EventArgs e)
+        {
+            Attempts.Add('d');
+            if (WordToGuess.Contains('d'))
+                dButton.BackColor = Color.Green;
+            else
+                dButton.BackColor = Color.Red;
+        }
     }
 }
