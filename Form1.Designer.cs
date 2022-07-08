@@ -423,10 +423,12 @@
             this.Controls.Add(this.aButton);
             this.Controls.Add(this.qButton);
             this.Controls.Add(this.DisplayText);
+            this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "HangMan";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "HangMan";
             ((System.ComponentModel.ISupportInitialize)(this.HangManImages)).EndInit();
             this.ResumeLayout(false);
