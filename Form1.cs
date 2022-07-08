@@ -50,6 +50,7 @@ namespace HangMan
             while (DisplayText.Text.Contains('-') && TotalAttemptsGiven > WrongGuesses)
             {
                 var temp = 0;
+                Attempts = Attempts.Distinct().ToList();// removes dulps so someone can not lose by repeatly pressing the same button
                 Display();
                 foreach(char c in Attempts)
                     if(!WordToGuess.Contains(c))
