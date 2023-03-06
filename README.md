@@ -16,7 +16,6 @@ With over 10,000 possible answers, this version of HangMan is sure to provide ho
 
 * A Windows operating system.
 * Microsoft Visual Studio 2017 or newer.
-* Basic knowledge of C# programming.
 
 <h2>Getting Started</h2>
 
