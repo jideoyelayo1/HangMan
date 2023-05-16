@@ -1,5 +1,8 @@
 <h1>HangMan</h1>
 
+<img src="https://github.com/jideoyelayo1/HangMan/assets/41443216/69132442-bcb5-43b5-88c9-590d86b64265" alt="Image" style="width: 500px; height: 400px;">
+
+
 HangMan is a simple, yet entertaining game where players try to guess a randomly selected word letter by letter. This version of HangMan was built using C# and is designed as a Universal Windows Platform (UWP) desktop application.
 
 With over 10,000 possible answers, this version of HangMan is sure to provide hours of entertainment.
